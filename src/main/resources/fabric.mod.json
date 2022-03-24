@@ -18,7 +18,7 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "productions.moo.minecraft.Bundler.BundlerInitializer"
+        "value": "productions.moo.minecraft.BundlerInitializer"
       }
     ],
     "client": [

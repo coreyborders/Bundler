@@ -9,7 +9,7 @@ import productions.moo.BundlerBlock
 class BundlerInitializer: ModInitializer {
 
     override fun onInitialize() {
-        TODO("Not yet implemented")
+
     }
 
     companion object {
