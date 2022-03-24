@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "bundler",
+  "version": "${version}",
+  "name": "Bundler",
+  "description": "Craft an automatic bundler",
+  "authors": [
+    "Corey Borders"
+  ],
+  "contact": {
+    "homepage": "https://github.com/coreyborders/Bundler",
+    "issues": "https://github.com/coreyborders/Bundler/issues",
+    "sources": "https://github.com/coreyborders/Bundler"
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "productions.moo.minecraft.Bundler.BundlerInitializer"
+      }
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "bundler.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.0+kotlin.1.6.0",
+    "minecraft": "1.18.1",
+    "java": ">=17"
+  }
+}

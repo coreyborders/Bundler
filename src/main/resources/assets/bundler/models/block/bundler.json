@@ -1,0 +1,7 @@
+{
+  "parent": "bundler:block/bundler_template",
+  "textures": {
+    "0": "bundler:block/bundler",
+    "particle": "bundler:block/paired_chest_particle"
+  }
+}
